@@ -1,12 +1,12 @@
-<footer class="bg-white py-8">
+<footer class="bg-white py-8" id="contact">
 	<div class="container mx-auto flex flex-wrap justify-between items-center">
 		<div class="flex items-center ml-16">
 			<a class="text-2xl font-bold text-[#FC4A1C]" href="{{ url("/") }}">
-				<span>MyLogo</span>
+				<img class="w-3/4" src="{{ Vite::asset("resources/images/logo.png") }}" alt="App Screen Previews">
 			</a>
 		</div>
 
-		<div class="w-full sm:w-1/4 mb-6 sm:mb-0">
+		<div class="w-full sm:w-1/4 mb-6 sm:mb-0 ml-28">
 			<h3 class="font-bold mb-4">Information</h3>
 			<ul class="list-none space-y-2">
 				<li><a class="text-gray-700 hover:text-[#FC4A1C]" href="#">About us</a></li>
@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 
-		<div class="w-full sm:w-1/4 mb-6 sm:mb-0">
+		<div class="w-full sm:w-1/4 mb-6 sm:mb-0" >
 			<h3 class="font-bold mb-4">Contacts</h3>
 			<ul class="list-none space-y-2">
 				<li class="flex items-center">

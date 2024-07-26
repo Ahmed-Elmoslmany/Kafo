@@ -2,7 +2,7 @@
 	<div class="container mx-auto flex justify-between items-center px-4">
 		<div class="flex items-center">
 			<a class="text-2xl font-bold text-[#FC4A1C]" href="{{ url("/") }}">
-				<span>MyLogo</span>
+				<img class="w-3/4" src="{{ Vite::asset("resources/images/logo.png") }}" alt="App Screen Previews">
 			</a>
 		</div>
 
@@ -16,7 +16,7 @@
 				@endif
 			</a>
 			<a class="font-bold relative text-gray-700 hover:text-[#FC4A1C] {{ request()->is("about") ? "text-[#FC4A1C]" : "" }}"
-				href="{{ url("/about") }}"
+				href="{{ url("#about") }}"
 			>
 				About
 				@if (request()->is("about"))
@@ -25,7 +25,7 @@
 			</a>
 			<a
 				class="font-bold relative text-gray-700 hover:text-[#FC4A1C] {{ request()->is("services") ? "text-[#FC4A1C]" : "" }}"
-				href="{{ url("/services") }}"
+				href="{{ url("#services") }}"
 			>
 				Services
 				@if (request()->is("services"))
@@ -34,7 +34,7 @@
 			</a>
 			<a
 				class="font-bold relative text-gray-700 hover:text-[#FC4A1C] {{ request()->is("contact") ? "text-[#FC4A1C]" : "" }}"
-				href="{{ url("/contact") }}"
+				href="{{ url("#contact") }}"
 			>
 				Contact
 				@if (request()->is("contact"))

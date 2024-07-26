@@ -1,4 +1,4 @@
-<div class="flex items-center justify-between bg-hero-gradient p-8">
+<div class="flex items-center justify-between bg-hero-gradient p-8" id="about">
 	<div class="w-1/2 text-white pl-8 relative">
 		<div class="absolute left-0 top-0 ml-5 bottom-0 w-0.5 bg-white"></div>
 		<h1 class="text-4xl font-bold mb-4 pl-4">Unlock Seamless Logistics Solutions</h1>

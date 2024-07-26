@@ -1,4 +1,4 @@
-<div class="bg-white py-16 px-8">
+<div class="bg-white py-16 px-8" id="services">
 	<h2 class="text-4xl font-bold text-center mb-12">
 		<span class="text-red-600">Our</span> Features
 	</h2>

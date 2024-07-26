@@ -1,4 +1,4 @@
-<div class="flex items-center justify-between bg-download-gradient p-12 max-h-fit">
+<div class="flex items-center justify-between bg-download-gradient p-12 max-h-fit" >
 	<div class="w-1/2 text-white pl-5">
 		<h1 class="text-7xl font-bold mb-4">Download</h1>
 		<h1 class="text-7xl font-bold mb-4">Our Application Now</h1>
